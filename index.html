@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotate Box Collision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+    <div id="container">
+        <div>
+            <span class="title">Rectangle 1</span>
+            <button id="rotate_L1"> <span>&#8630;</span> </button>
+            <button id="rotate_R1"> <span>&#8631;</span> </button>
+            <div class="centered">
+                <button id="up_1"> <span>&#8593;</span> </button>
+            </div>
+            <button id="left_1"> <span>&#8592;</span> </button>
+            <button id="right_1"> <span>&#8594;</span> </button>
+            <div class="centered">
+                <button id="down_1"> <span>&#8595;</span> </button>
+            </div>
+            <div>
+                <span class="input_title"> <b>Position</b> </span>
+                <label for="position_x_1">X</label>
+                <input type="number" min="50" max="300" id="position_x_1" placeholder="Input Horizontal Position">
+                <label for="position_y_1">Y</label>
+                <input type="number" min="50" max="300" id="position_y_1" placeholder="Input Vertical Position">
+                <label for="angle_1">Angle</label>
+                <input type="number" min="50" max="300" id="angle_1" placeholder="Input Vertical Position">
+            </div>
+            <div>
+                <span class="input_title"> <b>Dimension</b> </span>
+                <label for="width_1">Width</label>
+                <input type="number" min="50" max="300" id="width_1" placeholder="Input Width">
+                <label for="height_1">Height</label>
+                <input type="number" min="50" max="300" id="height_1" placeholder="Input Height">
+            </div>
+            <div>
+                <span class="input_title"> <b>Sensitivity</b> </span>
+                <label for="sens_movement_1">Movement</label>
+                <input type="number" min="50" max="300" id="sens_movement_1" placeholder="Input Movement Sensitivity">
+                <label for="sens_angle_1">Angle</label>
+                <input type="number" min="50" max="300" id="sens_angle_1" placeholder="Input Angle Sensitivity">
+            </div>
+        </div>
+        <div>
+            <span class="title">Rectangle 2</span>
+            <button id="rotate_L2"> <span>&#8630;</span> </button>
+            <button id="rotate_R2"> <span>&#8631;</span> </button>
+            <div class="centered">
+                <button id="up_2"> <span>&#8593;</span> </button>
+            </div>
+            <button id="left_2"> <span>&#8592;</span> </button>
+            <button id="right_2"> <span>&#8594;</span> </button>
+            <div class="centered">
+                <button id="down_2"> <span>&#8595;</span> </button>
+            </div>
+            <div>
+                <span class="input_title"> <b>Position</b> </span>
+                <label for="position_x_2">X</label>
+                <input type="number" min="50" max="300" id="position_x_2" placeholder="Input Horizontal Position">
+                <label for="position_y_2">Y</label>
+                <input type="number" min="50" max="300" id="position_y_2" placeholder="Input Vertical Position">
+                <label for="angle_2">Y</label>
+                <input type="number" min="50" max="300" id="angle_2" placeholder="Input Vertical Position">
+            </div>
+            <div>
+                <span class="input_title"> <b>Dimension</b> </span>
+                <label for="width_2">Width</label>
+                <input type="number" min="50" max="300" id="width_2" placeholder="Input Width">
+                <label for="height_2">Height</label>
+                <input type="number" min="50" max="300" id="height_2" placeholder="Input Height">
+            </div>
+            <div>
+                <span class="input_title"> <b>Sensitivity</b> </span>
+                <label for="sens_movement_2">Movement</label>
+                <input type="number" min="50" max="300" id="sens_movement_2" placeholder="Input Movement Sensitivity">
+                <label for="sens_angle_2">Angle</label>
+                <input type="number" min="50" max="300" id="sens_angle_2" placeholder="Input Angle Sensitivity">
+            </div>
+        </div>
+    </div>
+    <script src="script/main.js" type="module"></script>
+</body>
+</html>

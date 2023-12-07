@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas1 {
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    translate: -50% -50%;
+    position: absolute;
+    border: 1px greenyellow solid;
+}
+
+#container {
+    padding: 0 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+
+button {
+    width: 70px;
+    font-size: xx-large;
+    margin: 10px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+}
+
+.input_title {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
